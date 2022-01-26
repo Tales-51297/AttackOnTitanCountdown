@@ -75,7 +75,8 @@ a{
   font-size:.5rem;;
   margin-top:2em;
   grid-column:1;
-  grid-row:5;
+  grid-row:4;
+  z-index:3;
   padding:.8rem;
   text-decoration:none;
   color:orange;
