@@ -69,23 +69,5 @@ span{
   font-size:clamp(.9rem, 3vw, 2.5rem);
 }
 
-a{
-  border:1px solid orange;
-  border-radius:.4rem;
-  font-size:.5rem;;
-  margin-top:2em;
-  position:absolute;
-  bottom:0;
-  z-index:3;
-  padding:.8rem;
-  text-decoration:none;
-  color:orange;
-  transition:all 200ms ease-in-out;
-}
 
-a:hover{
-  background:white;
-  color:black;
-  
-}
 
