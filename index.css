@@ -1,1 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400&display=swap');
+
+body{
+  margin:0;
+  padding:0;
+  display:grid;
+  font-family: 'Playfair Display', serif;
+
+}
+
+h1{
+  position:absolute;
+  top:15%;
+  font-size:clamp(1.2rem, 3.5vw, 3.5rem);
+  color:white;
+  letter-spacing:5px;
+  text-align:center;
+  margin-inline:1rem;
+}
+.section-center{
+  display:grid;
+  position:relative;
+  min-width:300px;
+  place-items:center;
+  height: 100%;
+}
+
+.section-center:before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:rgba(0,0,0,0.30);
+}
+
+.countdown_blocks{
+  display: flex;
+  position: absolute;
+  gap:2rem;
+  top: 55%;
+  min-width:300px;
+  z-index:1;
+}
+
+img{
+  width:100%;
+  object-fit:cover;
+  grid-column:1/2;
+  grid-row:1/5;
+}
+
+.block{
+  background:white;
+  flex-basis:100%;
+  border:1px solid black;
+  text-align: center;
+  padding: clamp(.6rem, 2.5vw,2.3rem);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+h4{
+    margin:0;
+    padding:0;
+  
+  font-size:clamp(.9rem, 3vw, 2.5rem);
+}
+
+
+span{
+  font-size:clamp(.9rem, 3vw, 2.5rem);
+}
+
+a{
+  border:1px solid orange;
+  border-radius:.4rem;
+  font-size:.5rem;;
+  margin-top:2em;
+  grid-column:1;
+  grid-row:5;
+  padding:.8rem;
+  text-decoration:none;
+  color:orange;
+  transition:all 200ms ease-in-out;
+}
+
+a:hover{
+  background:white;
+  color:black;
+  
+}
 
